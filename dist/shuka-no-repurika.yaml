@@ -1,0 +1,23 @@
+apiVersion: batch.bonavadeur.io/v1
+kind: Repurika
+metadata:
+  labels:
+    app.kubernetes.io/name: repurika
+    app.kubernetes.io/instance: repurika-sample
+    app.kubernetes.io/part-of: repurika
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: repurika
+  name: shuka-no-repurika
+spec:
+  size: 2
+  selector:
+    matchLabels:
+      app: shuka
+  template:
+    metadata:
+      labels:
+        app: shuka
+    spec:
+      containers:
+      - name: shuka
+        image: docker.io/bonavadeur/shuka:sleep
