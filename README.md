@@ -211,4 +211,4 @@ Any improvement can be sent to me, via `daodaihiep22ussr@gmail.com`, or create a
 The Future Internet Laboratory, E711 C7 Building, Hanoi University of Science and Technology, Vietnam.
 未来のインターネット研究室, C7 の E ７１１、ハノイ百科大学、ベトナム。  
 
-![](https://github.com/bonavadeur/bonavadeur/blob/master/images/github-wp.png?raw=true)
+![](images/github-wp.png)
